@@ -1,0 +1,9 @@
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\bin\Debug\SYEV3.exe.config
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\bin\Debug\SYEV3.exe
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\bin\Debug\SYEV3.pdb
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.Form1.resources
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.Properties.Resources.resources
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.csproj.GenerateResource.Cache
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.exe
+c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.pdb
+C:\Users\Skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.csprojResolveAssemblyReference.cache
