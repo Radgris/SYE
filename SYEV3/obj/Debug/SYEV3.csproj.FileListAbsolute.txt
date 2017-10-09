@@ -7,3 +7,12 @@ c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3
 c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.exe
 c:\users\skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.pdb
 C:\Users\Skorm\documents\visual studio 2017\Projects\SYEV3\SYEV3\obj\Debug\SYEV3.csprojResolveAssemblyReference.cache
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\bin\Debug\SYEV3.exe.config
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\bin\Debug\SYEV3.exe
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\bin\Debug\SYEV3.pdb
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\obj\Debug\SYEV3.csprojResolveAssemblyReference.cache
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\obj\Debug\SYEV3.Form1.resources
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\obj\Debug\SYEV3.Properties.Resources.resources
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\obj\Debug\SYEV3.csproj.GenerateResource.Cache
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\obj\Debug\SYEV3.exe
+C:\Users\Skorm\Documents\Visual Studio 2017\Projects\SYEV3\git\SYEV3\obj\Debug\SYEV3.pdb

@@ -6,21 +6,31 @@ using System.Threading.Tasks;
 
 namespace SYEV3.Classes
 {
-    class Rules
+      class Rules
     {
 
 
 
 
-        CheckWinner()
+         public  static int CheckWinner(Token token)
         {
 
-            if (player1.casillas >= 30)
+            if (token.Casilla.Numero >= 30)
             {
-               //alert player 1 has won
+                
+                Console.Write(token.Player + "ah ganado el juego");
+
+                return 1;
             }
 
-            return;
+            else
+            {
+                Console.Write("es el turno del jugador" + token.Player);
+
+                return 0;
+            }
+
+          
         }
     }
 }

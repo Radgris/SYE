@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SYEV3.Classes;
+using SYEV3;
 
 namespace SYEV3
 {
@@ -26,9 +28,11 @@ namespace SYEV3
             labelCasillaY.Text = (e.Y / 150).ToString();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void button1_Click( object sender, EventArgs e)
         {
-
+            int tempdice=Dice.GetDice();
+            labelDIce.Text = tempdice.ToString();
+            
 
             pictureBox3.Left += 135;
             pictureBox3.Top -= 150;

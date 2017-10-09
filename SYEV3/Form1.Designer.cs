@@ -34,7 +34,7 @@
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
+            this.labelDIce = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.labelCasillaX = new System.Windows.Forms.Label();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
@@ -105,15 +105,15 @@
             this.label1.TabIndex = 5;
             this.label1.Text = "Last Dice : ";
             // 
-            // label2
+            // labelDIce
             // 
-            this.label2.AccessibleName = "LblDice";
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(70, 127);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(29, 13);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "Dice";
+            this.labelDIce.AccessibleName = "LblDice";
+            this.labelDIce.AutoSize = true;
+            this.labelDIce.Location = new System.Drawing.Point(70, 127);
+            this.labelDIce.Name = "labelDIce";
+            this.labelDIce.Size = new System.Drawing.Size(29, 13);
+            this.labelDIce.TabIndex = 6;
+            this.labelDIce.Text = "Dice";
             // 
             // label3
             // 
@@ -162,7 +162,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.labelCasillaX);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.labelDIce);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
@@ -187,7 +187,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label labelDIce;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label labelCasillaX;
         private System.Windows.Forms.PictureBox pictureBox3;
