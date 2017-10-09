@@ -14,6 +14,9 @@ namespace SYEV3
 {
     public partial class Form1 : Form
     {
+
+        Tablero tablero = new Tablero();
+
         public Form1()
         {
             InitializeComponent();
@@ -32,10 +35,12 @@ namespace SYEV3
         {
             int tempdice=Dice.GetDice();
             labelDIce.Text = tempdice.ToString();
-            
 
-            pictureBox3.Left += 135;
-            pictureBox3.Top -= 150;
+            int casillaValueX = tablero.CurrentPlayer.Casilla.Ylocation1;
+            int casillaValueY = tablero.CurrentPlayer.Casilla.XLocation1;
+
+            pictureBox3.Left = casillaValueX;
+            pictureBox3.Top = casillaValueY;
         }
     }
 }
