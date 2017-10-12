@@ -15,11 +15,16 @@ namespace SYEV3
     public partial class Form1 : Form
     {
 
-        Tablero tablero = new Tablero();
+        Tablero Board;
+
+        
 
         public Form1()
         {
             InitializeComponent();
+             Board = new Tablero();
+            
+
         }
 
         private void pictureBox1_MouseMove(object sender, MouseEventArgs e)
@@ -33,11 +38,17 @@ namespace SYEV3
 
         private void button1_Click( object sender, EventArgs e)
         {
+            
             int tempdice=Dice.GetDice();
             labelDIce.Text = tempdice.ToString();
 
-            int casillaValueX = tablero.CurrentPlayer.Casilla.Ylocation1;
-            int casillaValueY = tablero.CurrentPlayer.Casilla.XLocation1;
+            Console.WriteLine(Board);
+            Console.WriteLine(Board.CurrentPlayer);
+            Console.WriteLine("hallo");
+            Console.WriteLine(Board.CurrentPlayer.Casilla);
+
+            int casillaValueX = Board.CurrentPlayer.Casilla.Ylocation1;
+            int casillaValueY = Board.CurrentPlayer.Casilla.XLocation1;
 
             pictureBox3.Left = casillaValueX;
             pictureBox3.Top = casillaValueY;

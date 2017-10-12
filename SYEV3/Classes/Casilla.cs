@@ -19,8 +19,10 @@ namespace SYEV3.Classes
         {
             this.numero = numero;
             this.especial = especial;
-            XLocation = xLocation;
-            Ylocation = ylocation;
+            this.XLocation = xLocation;
+            this.Ylocation = ylocation;
+
+
         }
 
         public byte Numero { get => numero; set => numero = value; }

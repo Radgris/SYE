@@ -12,8 +12,8 @@ namespace SYEV3.Classes
 
         Casilla[] Board;
 
-        Token player1;
-        Token player2;
+        Token PlayerA;
+        Token PlayerB;
         Token currentPlayer;
 
 
@@ -23,7 +23,7 @@ namespace SYEV3.Classes
         {
 
 
-            Board = new Casilla[29];
+            Board = new Casilla[30];
             
             Board[0] = new Casilla(1, 0, 175, 700);
             Board[1] = new Casilla(2, 0, 310, 700);
@@ -56,9 +56,10 @@ namespace SYEV3.Classes
             Board[28] = new Casilla(29, 0, 715, 100);
             Board[29] = new Casilla(30, 0, 850, 100);
 
-            Token Player1 = new Token(Board1[0], "Jugador1");
-            Token Player2 = new Token(Board1[0], "Jugador2");
-            Token currentplayer = Player1;
+            this.PlayerA = new Token(Board[0], "Jugador1");
+      
+            this.PlayerB = new Token(Board[0], "Jugador2");
+            this.currentPlayer = this.PlayerA;
 
 
 
@@ -66,14 +67,11 @@ namespace SYEV3.Classes
         }
 
         internal Casilla[] Board1 { get => Board; set => Board = value; }
-        public Token Player1 { get => player1; set => player1 = value; }
-        public Token Player2 { get => player2; set => player2 = value; }
+
         public Token CurrentPlayer { get => currentPlayer; set => currentPlayer = value; }
+        internal Token PlayerA1 { get => PlayerA; set => PlayerA = value; }
+        internal Token PlayerB1 { get => PlayerB; set => PlayerB = value; }
 
-
-     
-
-    
     }
 
 
