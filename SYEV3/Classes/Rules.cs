@@ -12,20 +12,20 @@ namespace SYEV3.Classes
 
 
 
-         public  static bool CheckWinner(Token token)
+         public  static bool CheckWinner(Token token, int tempdice)
         {
 
-            if (token.Casilla.Numero >= 29)
+            if (token.Casilla.Numero+ tempdice >= 30)
             {
                 
-                Console.Write(token.Player + "ah ganado el juego");
+                Console.WriteLine(token.Player + " ah ganado el juego");
 
                 return true;
             }
 
             else
             {
-                Console.Write("es el turno del jugador" + token.Player);
+                Console.WriteLine("es el turno del jugador " + token.Player);
 
                 return false;
             }
