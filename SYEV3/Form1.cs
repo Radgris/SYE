@@ -15,14 +15,14 @@ namespace SYEV3
     public partial class Form1 : Form
     {
 
-        Tablero Board;
+        Tablero BoardForm;
 
         
 
         public Form1()
         {
             InitializeComponent();
-             Board = new Tablero();
+             BoardForm = new Tablero();
             
 
         }
@@ -42,16 +42,25 @@ namespace SYEV3
             int tempdice=Dice.GetDice();
             labelDIce.Text = tempdice.ToString();
 
-            Console.WriteLine(Board);
-            Console.WriteLine(Board.CurrentPlayer);
-            Console.WriteLine("hallo");
-            Console.WriteLine(Board.CurrentPlayer.Casilla);
+            int CasillaAMover = BoardForm.CurrentPlayer.Casilla.Numero + tempdice;
+            Console.WriteLine(BoardForm.CurrentPlayer.Casilla.XLocation1);
 
-            int casillaValueX = Board.CurrentPlayer.Casilla.Ylocation1;
-            int casillaValueY = Board.CurrentPlayer.Casilla.XLocation1;
+            if (Rules.CheckWinner(BoardForm.CurrentPlayer))
+            {
 
-            pictureBox3.Left = casillaValueX;
-            pictureBox3.Top = casillaValueY;
+            }
+            else
+            {
+                BoardForm.CurrentPlayer.Casilla = BoardForm.Board1[CasillaAMover];
+                int casillaValueX = BoardForm.CurrentPlayer.Casilla.XLocation1;
+                int casillaValueY = BoardForm.CurrentPlayer.Casilla.Ylocation1;
+                pictureBox3.Left = casillaValueX;
+                pictureBox3.Top = casillaValueY;
+            }
+
+
+
+
         }
     }
 }
